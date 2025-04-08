@@ -1,13 +1,10 @@
 ---
-title: "OSINT"
-description: "Lorem ipsum dolor sit amet"
-pubDate: "Jul 08 2022"
-heroImage: "/image.jpg"
+title: "OSINT REPORT: Drukair (Royal Bhutan Airlines)"
+description: "The national flag carrier of the Kingdom of Bhutan, Drukair connects Bhutan to the world."
+pubDate: "April 08 2025"
+heroImage: "/plane.jpg"
 ---
 
-# OSINT REPORT: Drukair (Royal Bhutan Airlines) (1)
-
-![DrukAirBus-1024x483.jpg](../Images/DrukAirBus-1024x483.jpg)
 # **1. Introduction**
 
 Drukair, officially known as **Drukair Corporation Limited**, is the national airline of Bhutan, connecting the remote Himalayan kingdom to major cities across South Asia and beyond. Established in 1981 by royal decree, Drukair plays a vital role in Bhutan’s economy by facilitating tourism, trade, and government travel. Operating under the domain drukair.com.bt, the airline provides domestic and international flight services, connecting Bhutan to regional hubs. As a state-owned enterprise, Drukair also offers baggage tracking, holiday packages, hotel bookings, and helicopter services.
