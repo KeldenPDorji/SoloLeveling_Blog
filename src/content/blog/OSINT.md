@@ -17,7 +17,7 @@ This report investigates the online footprint and infrastructure of drukair.com.
 
 Tool Used: [Whois Lookup](https://whois.domaintools.com/drukair.com.bt)
 
-![Screenshot From 2025-03-16 13-22-48.png](../Images/Screenshot_From_2025-03-16_13-22-48.png)
+![Screenshot From 2025-03-16 13-22-48.png](../Images/drukair/Screenshot_From_2025-03-16_13-22-48.png)
 
 **Findings:**
 
@@ -34,11 +34,11 @@ Tool Used: [Whois Lookup](https://whois.domaintools.com/drukair.com.bt)
 
 **Tools Used:** dig, nslookup, dnsenum
 
-![Screenshot From 2025-03-16 18-31-53.png](../Images//Screenshot_From_2025-03-16_18-31-53.png)
+![Screenshot From 2025-03-16 18-31-53.png](../Images/drukair/Screenshot_From_2025-03-16_18-31-53.png)
 
-![Screenshot From 2025-03-16 18-31-59.png](../Images//Screenshot_From_2025-03-16_18-31-59.png)
+![Screenshot From 2025-03-16 18-31-59.png](../Images/drukair/Screenshot_From_2025-03-16_18-31-59.png)
 
-![Screenshot From 2025-03-16 18-30-07.png](../Images//Screenshot_From_2025-03-16_18-30-07.png)
+![Screenshot From 2025-03-16 18-30-07.png](../Images/drukair/Screenshot_From_2025-03-16_18-30-07.png)
 
 - **Mail Exchange (MX) Records:**
     - ASPMX.L.GOOGLE.com (74.125.24.27)
@@ -56,11 +56,11 @@ Tool Used: [Whois Lookup](https://whois.domaintools.com/drukair.com.bt)
 
 **Tools Used:** sublist3r, dnsenum, crt.sh, DNSDumpster
 
-![Screenshot From 2025-03-16 18-31-18.png](../Images//Screenshot_From_2025-03-16_18-31-18.png)
+![Screenshot From 2025-03-16 18-31-18.png](../Images/drukair/Screenshot_From_2025-03-16_18-31-18.png)
 
-![Screenshot From 2025-03-16 13-54-37.png](../Images//Screenshot_From_2025-03-16_13-54-37.png)
+![Screenshot From 2025-03-16 13-54-37.png](../Images/drukair/Screenshot_From_2025-03-16_13-54-37.png)
 
-![Screenshot From 2025-03-16 13-55-53.png](../Images//Screenshot_From_2025-03-16_13-55-53.png)
+![Screenshot From 2025-03-16 13-55-53.png](../Images/drukair/Screenshot_From_2025-03-16_13-55-53.png)
 
 | **Subdomain** | **IP/Details** | **Purpose** |
 | --- | --- | --- |
@@ -80,7 +80,7 @@ Tool Used: [Whois Lookup](https://whois.domaintools.com/drukair.com.bt)
 
 **Tools Used:** crt.sh
 
-![Screenshot From 2025-03-16 14-07-09.png](../Images//Screenshot_From_2025-03-16_14-07-09.png)
+![Screenshot From 2025-03-16 14-07-09.png](../Images/drukair/Screenshot_From_2025-03-16_14-07-09.png)
 
 - **Main Domain Certificate:**
     - Issued To: *.prod.sxb1.secureserver.net
@@ -97,7 +97,7 @@ Tool Used: [Whois Lookup](https://whois.domaintools.com/drukair.com.bt)
 
 **Tools Used:** whatweb
 
-![Screenshot From 2025-03-16 18-54-30.png](../Images//Screenshot_From_2025-03-16_18-54-30.png)
+![Screenshot From 2025-03-16 18-54-30.png](../Images/drukair/Screenshot_From_2025-03-16_18-54-30.png)
 
 - **Web Server:** Apache
 - **Server Status:** 403 Forbidden
@@ -108,7 +108,7 @@ Tool Used: [Whois Lookup](https://whois.domaintools.com/drukair.com.bt)
 
 **Tools Used:** Wappalyzer
 
-![Screenshot From 2025-03-16 18-56-27.png](../Images//Screenshot_From_2025-03-16_18-56-27.png)
+![Screenshot From 2025-03-16 18-56-27.png](../Images/drukair/Screenshot_From_2025-03-16_18-56-27.png)
 
 - **CMS:** WordPress
 - **Programming Language:** PHP 7.4.33 (End of life: Nov 2022)
@@ -121,7 +121,7 @@ Tool Used: [Whois Lookup](https://whois.domaintools.com/drukair.com.bt)
 
 **Tools Used:** shodan.io
 
-![Screenshot From 2025-03-16 18-52-38.png](../Images//Screenshot_From_2025-03-16_18-52-38.png)
+![Screenshot From 2025-03-16 18-52-38.png](../Images/drukair/Screenshot_From_2025-03-16_18-52-38.png)
 
 | **Port** | **Service** | **Details** |
 | --- | --- | --- |
@@ -139,11 +139,11 @@ Tool Used: [Whois Lookup](https://whois.domaintools.com/drukair.com.bt)
 
 **Tools Used:** Hunter.io, Snov.io
 
-![image.png](../Images/image.png)
+![image.png](../Images/drukair/image.png)
 
-![Screenshot From 2025-03-16 19-03-56.png](../Images//Screenshot_From_2025-03-16_19-03-56.png)
+![Screenshot From 2025-03-16 19-03-56.png](../Images/drukair/Screenshot_From_2025-03-16_19-03-56.png)
 
-![Screenshot From 2025-03-16 19-04-17.png](../Images//Screenshot_From_2025-03-16_19-04-17.png)
+![Screenshot From 2025-03-16 19-04-17.png](../Images/drukair/Screenshot_From_2025-03-16_19-04-17.png)
 
 **Executive Level:**
 
@@ -222,7 +222,7 @@ Emails such as enquiry@drukair.com.bt and reservation@drukair.com.bt could be ta
 
 **Tools Used:** VirusTotal
 
-![Screenshot From 2025-03-16 13-29-33.png](../Images//Screenshot_From_2025-03-16_13-29-33.png)
+![Screenshot From 2025-03-16 13-29-33.png](../Images/drukair/Screenshot_From_2025-03-16_13-29-33.png)
 
 - No detected malware or phishing threats.
 - Three detected files communicating with the domain (no malicious activity flagged).
@@ -236,9 +236,9 @@ Emails such as enquiry@drukair.com.bt and reservation@drukair.com.bt could be ta
 - [FlightAware](https://www.flightaware.com/)
 - [Flightradar24](https://www.flightradar24.com/)
     
-    ![Screenshot From 2025-03-16 13-39-09.png](../Images//Screenshot_From_2025-03-16_13-39-09.png)
+    ![Screenshot From 2025-03-16 13-39-09.png](../Images/drukair/Screenshot_From_2025-03-16_13-39-09.png)
     
-    ![Screenshot From 2025-03-16 13-40-59.png](../Images//Screenshot_From_2025-03-16_13-40-59.png)
+    ![Screenshot From 2025-03-16 13-40-59.png](../Images/drukair/Screenshot_From_2025-03-16_13-40-59.png)
     
 
 **Findings:**

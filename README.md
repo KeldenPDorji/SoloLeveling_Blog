@@ -1,4 +1,4 @@
-<h1 align="center">Token</h1>
+<h1 align="center">Dracula</h1>
 <h2 align="center">Minimal Astro + Tailwind CSS Starter</h2>
 
 <p align="center">
