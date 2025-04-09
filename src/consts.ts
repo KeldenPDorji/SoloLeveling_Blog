@@ -1,6 +1,6 @@
 export const SITE_TITLE = "Drac";
 export const SITE_DESCRIPTION =
-  `Dracula`.trim();
+  `Drac`.trim();
 
 export const KNOWN_TECH =
   `Astro,Tailwindcss,Javascript,Typescript,Python,CSS,Nextjs,HTML,React,~︻╦╤──═[$root.EXE]▓
