@@ -1,11 +1,12 @@
 ---
 title: "Metasploit"
-description: "The national flag carrier of the Kingdom of Bhutan, Drukair connects Bhutan to the world."
+description: "Metasploit is the world's most used penetration testing tool. Uncover weaknesses in your defenses, focus on the right risks, and improve security."
 pubDate: "April 16 2025"
 heroImage: "/metasploit.png"
 ---
 
 # 🛠️ Introduction to Metasploit & MSFconsole
+Metasploit is the world's most used penetration testing tool. Uncover weaknesses in your defenses, focus on the right risks, and improve security.
 
 ---
 
