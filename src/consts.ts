@@ -8,7 +8,7 @@ export const KNOWN_TECH =
     ",",
   );
 export const ABOUT_ME =
-  `Hey, I’m Kelden Phuntsho Dorji — a 2nd-year Software Engineering student at CST Bhutan, majoring in Cyber Security.
+  `Hey, I’m Kelden Phuntsho Dorji — a 3rd-year Software Engineering student at CST Bhutan, majoring in Cyber Security.
 
 I’m passionate about building things that live on the internet, breaking things that shouldn't be broken, and learning things that most people overlook. Whether it’s diving into low-level exploits, securing systems, or crafting clean code, I thrive in the space where curiosity meets logic.
 
