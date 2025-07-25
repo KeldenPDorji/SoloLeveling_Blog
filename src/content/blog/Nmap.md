@@ -5,7 +5,7 @@ pubDate: "Apr 20 2025"
 heroImage: "/nmap.jpg"
 ---
 
-## Introduction to Nmap
+## Introduction to Nmap.
 - **Overview**: Nmap (Network Mapper) is an open-source tool for network analysis and security auditing, written in C, C++, Python, and Lua.
 - **Capabilities**:
   - Scans networks to identify available hosts using raw packets.
