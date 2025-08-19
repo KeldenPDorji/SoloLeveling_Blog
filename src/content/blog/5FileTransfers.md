@@ -5,7 +5,7 @@ pubDate: "May 09 2025"
 heroImage: "/ftpp.jpg"
 ---
 
-# Notes on Windows File Transfer Methods
+# Notes on Windows File Transfer Methods.
 
 ## Introduction
 - Understanding Windows file transfer methods aids attackers in evading detection and defenders in monitoring and securing systems.
