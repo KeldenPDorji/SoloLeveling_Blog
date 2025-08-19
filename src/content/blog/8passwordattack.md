@@ -7,7 +7,7 @@ heroImage: "/p.jpg"
 
 # **1.Theory of Protection:**
 
-### **The CIA Triad: Core Security Principles**
+### **The CIA Triad: Core Security Principles **
 
 Every cybersecurity professional focuses on three key principles:
 
